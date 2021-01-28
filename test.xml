@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Body>
+<crs:retrieveCitizensDataReq>
+    <AgencyCode>121101</AgencyCode>
+    <BranchCode>myBELIA</BranchCode>
+    <UserId>851213015045</UserId>
+    <TransactionCode>T2</TransactionCode>
+    <RequestDateTime>2017-12-12T17:18:00</RequestDateTime>
+    <ICNumber>600101015011</ICNumber>
+    <RequestIndicator>A</RequestIndicator>
+    <Race>0100</Race>
+    <Religion>01</Religion>
+    <PermanentAddress1>NO 6</PermanentAddress1>
+    <PermanentAddress2>JALAN HANG KASTURI</PermanentAddress2>
+    <PermanentAddress3>TAMAN DAWANI</PermanentAddress3>
+    <PermanentAddressPostcode>81400</PermanentAddressPostcode>
+    <PermanentAddressCityCode>0144</PermanentAddressCityCode>
+    <PermanentAddressStateCode>01</PermanentAddressStateCode>
+</crs:retrieveCitizensDataReq>
+</soapenv:Body>
+</soapenv:Envelope>
